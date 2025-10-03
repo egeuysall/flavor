@@ -4,7 +4,7 @@ export type Recipe = {
   slug: string;
   ingredients: string[];
   cookingTime: number;
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'kolay' | 'orta' | 'zor';
   cuisine: string;
 };
 

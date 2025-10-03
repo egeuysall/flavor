@@ -8,7 +8,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuklu Pilav'),
     ingredients: ['tavuk göğsü', 'pirinç', 'tereyağı', 'soğan', 'tuz', 'karabiber'],
     cookingTime: 35,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -17,7 +17,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Karnıyarık'),
     ingredients: ['patlıcan', 'kıyma', 'soğan', 'domates', 'salça', 'sarımsak', 'zeytinyağı'],
     cookingTime: 60,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -26,7 +26,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Mercimek Çorbası'),
     ingredients: ['kırmızı mercimek', 'soğan', 'havuç', 'salça', 'zeytinyağı', 'un', 'tuz'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -35,7 +35,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Fajitas'),
     ingredients: ['tavuk göğsü', 'biber', 'soğan', 'tortilla', 'baharatlar', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -44,7 +44,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Teriyaki'),
     ingredients: ['somon', 'soya sosu', 'bal', 'sarımsak', 'zencefil', 'susam'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Asya',
   },
   {
@@ -53,7 +53,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Spagetti Bolognese'),
     ingredients: ['spagetti', 'kıyma', 'domates', 'soğan', 'sarımsak', 'zeytinyağı'],
     cookingTime: 40,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -62,7 +62,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Şiş'),
     ingredients: ['tavuk göğsü', 'yoğurt', 'zeytinyağı', 'soğan', 'biber', 'baharatlar'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -71,7 +71,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek'),
     ingredients: ['dana bonfile', 'tuz', 'karabiber', 'tereyağı', 'sarımsak'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -80,7 +80,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Tikka Masala'),
     ingredients: ['tavuk', 'yoğurt', 'krema', 'domates', 'baharatlar', 'soğan'],
     cookingTime: 45,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Hint',
   },
   {
@@ -89,7 +89,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Kuru Fasulye'),
     ingredients: ['kuru fasulye', 'et', 'soğan', 'salça', 'zeytinyağı', 'tuz'],
     cookingTime: 90,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -98,7 +98,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Izgara Somon'),
     ingredients: ['somon', 'limon', 'zeytinyağı', 'tuz', 'karabiber', 'dereotu'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Akdeniz',
   },
   {
@@ -107,7 +107,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Menemen'),
     ingredients: ['yumurta', 'domates', 'biber', 'soğan', 'zeytinyağı', 'tuz'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -116,7 +116,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Parmesan'),
     ingredients: ['tavuk göğsü', 'parmesan', 'domates sosu', 'mozzarella', 'ekmek kırığı'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İtalyan',
   },
   {
@@ -125,7 +125,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Nohut'),
     ingredients: ['nohut', 'kuşbaşı et', 'soğan', 'salça', 'zeytinyağı', 'baharatlar'],
     cookingTime: 80,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -134,7 +134,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Burrito'),
     ingredients: ['tavuk', 'pirinç', 'fasulye', 'tortilla', 'peynir', 'salsa'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -143,7 +143,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Köfte'),
     ingredients: ['kıyma', 'soğan', 'ekmek içi', 'yumurta', 'baharatlar', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -152,7 +152,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Alfredo'),
     ingredients: ['tavuk', 'fettuccine', 'krema', 'parmesan', 'tereyağı', 'sarımsak'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -161,7 +161,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Zeytinyağlı Fasulye'),
     ingredients: ['taze fasulye', 'domates', 'soğan', 'zeytinyağı', 'şeker', 'tuz'],
     cookingTime: 45,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -170,7 +170,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Poke Bowl'),
     ingredients: ['somon', 'pirinç', 'avokado', 'salatalık', 'soya sosu', 'susam'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Asya',
   },
   {
@@ -179,7 +179,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Sote'),
     ingredients: ['tavuk göğsü', 'biber', 'domates', 'soğan', 'sarımsak', 'zeytinyağı'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -188,7 +188,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('BBQ Tavuk'),
     ingredients: ['tavuk but', 'bbq sos', 'bal', 'sarımsak tozu', 'zeytinyağı'],
     cookingTime: 40,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -197,7 +197,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Patlıcan Musakka'),
     ingredients: ['patlıcan', 'kıyma', 'domates', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 55,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -206,7 +206,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Pad Thai'),
     ingredients: ['pirinç eriştesi', 'tavuk', 'yumurta', 'fıstık', 'soya sosu', 'limon'],
     cookingTime: 25,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Asya',
   },
   {
@@ -215,7 +215,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Bamya'),
     ingredients: ['bamya', 'et', 'domates', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 60,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -224,7 +224,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Margherita Pizza'),
     ingredients: ['pizza hamuru', 'domates sosu', 'mozzarella', 'fesleğen', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -233,7 +233,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Çorbası'),
     ingredients: ['tavuk', 'havuç', 'patates', 'un', 'yumurta', 'limon'],
     cookingTime: 40,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -242,7 +242,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Taco'),
     ingredients: ['kıyma', 'taco kabuğu', 'marul', 'domates', 'peynir', 'salsa'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -251,7 +251,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('İmam Bayıldı'),
     ingredients: ['patlıcan', 'soğan', 'domates', 'sarımsak', 'zeytinyağı', 'maydanoz'],
     cookingTime: 50,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -260,7 +260,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Quesadilla'),
     ingredients: ['tavuk', 'tortilla', 'peynir', 'biber', 'soğan', 'zeytinyağı'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -269,7 +269,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Salata'),
     ingredients: ['somon', 'marul', 'domates', 'salatalık', 'limon', 'zeytinyağı'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Akdeniz',
   },
   {
@@ -278,7 +278,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Yaprak Sarma'),
     ingredients: ['asma yaprağı', 'pirinç', 'kıyma', 'soğan', 'zeytinyağı', 'nane'],
     cookingTime: 70,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Türk',
   },
   {
@@ -287,7 +287,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Hamburger'),
     ingredients: ['kıyma', 'ekmek', 'marul', 'domates', 'peynir', 'soğan'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -296,7 +296,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Stir Fry'),
     ingredients: ['tavuk', 'brokoli', 'havuç', 'soya sosu', 'sarımsak', 'pirinç'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Asya',
   },
   {
@@ -305,7 +305,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Ispanaklı Börek'),
     ingredients: ['yufka', 'ıspanak', 'soğan', 'peynir', 'yumurta', 'zeytinyağı'],
     cookingTime: 40,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -314,7 +314,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Penne Arrabiata'),
     ingredients: ['penne', 'domates', 'sarımsak', 'acı biber', 'zeytinyağı', 'fesleğen'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -323,7 +323,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Biber Dolması'),
     ingredients: ['biber', 'kıyma', 'pirinç', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 50,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -332,7 +332,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Caesar Salata'),
     ingredients: ['marul', 'tavuk', 'kruton', 'parmesan', 'caesar sos'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -341,7 +341,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Zeytinyağlı Enginar'),
     ingredients: ['enginar', 'havuç', 'bezelye', 'soğan', 'zeytinyağı', 'limon'],
     cookingTime: 45,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -350,7 +350,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Schnitzel'),
     ingredients: ['tavuk göğsü', 'ekmek kırığı', 'yumurta', 'un', 'zeytinyağı', 'limon'],
     cookingTime: 25,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Alman',
   },
   {
@@ -359,7 +359,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Döner'),
     ingredients: ['tavuk but', 'yoğurt', 'salça', 'zeytinyağı', 'baharatlar'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -368,7 +368,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Burger'),
     ingredients: ['somon', 'ekmek', 'marul', 'domates', 'sos', 'soğan'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -377,7 +377,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Lahana Sarma'),
     ingredients: ['lahana', 'kıyma', 'pirinç', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 80,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Türk',
   },
   {
@@ -386,7 +386,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Enchilada'),
     ingredients: ['tavuk', 'tortilla', 'enchilada sos', 'peynir', 'soğan'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Meksika',
   },
   {
@@ -395,7 +395,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Patlıcan Kızartma'),
     ingredients: ['patlıcan', 'zeytinyağı', 'yoğurt', 'sarımsak', 'tuz'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -404,7 +404,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Risotto'),
     ingredients: ['arborio pirinç', 'tavuk suyu', 'parmesan', 'soğan', 'beyaz şarap', 'tereyağı'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İtalyan',
   },
   {
@@ -413,7 +413,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Zeytinyağlı Pırasa'),
     ingredients: ['pırasa', 'havuç', 'pirinç', 'zeytinyağı', 'şeker', 'limon'],
     cookingTime: 40,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -422,7 +422,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Katsu'),
     ingredients: ['tavuk göğsü', 'panko', 'yumurta', 'un', 'zeytinyağı', 'katsu sos'],
     cookingTime: 25,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Japon',
   },
   {
@@ -431,7 +431,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Bulgur Pilavı'),
     ingredients: ['bulgur', 'domates', 'biber', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -440,7 +440,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Fish and Chips'),
     ingredients: ['balık', 'patates', 'un', 'bira', 'zeytinyağı', 'tuz'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İngiliz',
   },
   {
@@ -449,7 +449,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Kapama'),
     ingredients: ['tavuk', 'soğan', 'havuç', 'patates', 'zeytinyağı', 'baharatlar'],
     cookingTime: 60,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -458,7 +458,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Carbonara'),
     ingredients: ['spagetti', 'yumurta', 'guanciale', 'parmesan', 'karabiber'],
     cookingTime: 20,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İtalyan',
   },
   {
@@ -467,7 +467,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Kabak Mücver'),
     ingredients: ['kabak', 'yumurta', 'un', 'peynir', 'dereotu', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -476,7 +476,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Teriyaki'),
     ingredients: ['tavuk', 'teriyaki sos', 'pirinç', 'brokoli', 'susam', 'zeytinyağı'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Japon',
   },
   {
@@ -485,7 +485,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Kereviz'),
     ingredients: ['kereviz', 'et', 'havuç', 'soğan', 'limon', 'zeytinyağı'],
     cookingTime: 55,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -494,7 +494,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek Salata'),
     ingredients: ['biftek', 'marul', 'roka', 'domates', 'balzamik sirke', 'zeytinyağı'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -503,7 +503,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Domates Çorbası'),
     ingredients: ['domates', 'un', 'tereyağı', 'süt', 'tuz', 'şeker'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -512,7 +512,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Teriyaki Bowl'),
     ingredients: ['somon', 'pirinç', 'brokoli', 'havuç', 'teriyaki sos', 'susam'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Asya',
   },
   {
@@ -521,7 +521,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Kıymalı Börek'),
     ingredients: ['yufka', 'kıyma', 'soğan', 'yumurta', 'süt', 'zeytinyağı'],
     cookingTime: 45,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -530,7 +530,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Shawarma'),
     ingredients: ['tavuk', 'yoğurt', 'baharatlar', 'lavaş', 'domates', 'soğan'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Ortadoğu',
   },
   {
@@ -539,7 +539,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Zeytinyağlı Yaprak Sarma'),
     ingredients: ['asma yaprağı', 'pirinç', 'soğan', 'zeytinyağı', 'nane', 'limon'],
     cookingTime: 65,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Türk',
   },
   {
@@ -548,7 +548,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Nugget'),
     ingredients: ['tavuk göğsü', 'ekmek kırığı', 'yumurta', 'un', 'zeytinyağı', 'baharatlar'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -557,7 +557,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Taze Fasulye'),
     ingredients: ['taze fasulye', 'et', 'domates', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 60,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -566,7 +566,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Pesto Makarna'),
     ingredients: ['makarna', 'fesleğen', 'çam fıstığı', 'parmesan', 'sarımsak', 'zeytinyağı'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -575,7 +575,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Pirzola'),
     ingredients: ['tavuk pirzola', 'zeytinyağı', 'limon', 'baharatlar', 'sarımsak'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -584,7 +584,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek Fajitas'),
     ingredients: ['biftek', 'biber', 'soğan', 'tortilla', 'baharatlar', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -593,7 +593,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Güveç'),
     ingredients: ['tavuk', 'patates', 'havuç', 'biber', 'domates', 'zeytinyağı'],
     cookingTime: 70,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -602,7 +602,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Patates'),
     ingredients: ['somon', 'patates', 'zeytinyağı', 'limon', 'dereotu', 'tuz'],
     cookingTime: 35,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Akdeniz',
   },
   {
@@ -611,7 +611,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Yoğurtlu Kabak'),
     ingredients: ['kabak', 'yoğurt', 'sarımsak', 'zeytinyağı', 'tuz'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -620,7 +620,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Lo Mein'),
     ingredients: ['eriște', 'tavuk', 'sebze', 'soya sosu', 'susam yağı', 'sarımsak'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Çin',
   },
   {
@@ -629,7 +629,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Patlıcan'),
     ingredients: ['patlıcan', 'kıyma', 'domates', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 55,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -638,7 +638,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Caesar Wrap'),
     ingredients: ['tavuk', 'tortilla', 'marul', 'parmesan', 'caesar sos'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -647,7 +647,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuklu Erişte'),
     ingredients: ['erişte', 'tavuk', 'havuç', 'soğan', 'zeytinyağı', 'baharatlar'],
     cookingTime: 35,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -656,7 +656,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek Stroganoff'),
     ingredients: ['biftek', 'mantar', 'soğan', 'krema', 'hardal', 'zeytinyağı'],
     cookingTime: 30,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Rus',
   },
   {
@@ -665,7 +665,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Zeytinyağlı Kabak'),
     ingredients: ['kabak', 'domates', 'soğan', 'zeytinyağı', 'şeker', 'dereotu'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -674,7 +674,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Ramen'),
     ingredients: ['ramen', 'tavuk', 'yumurta', 'bok choy', 'tavuk suyu', 'soya sosu'],
     cookingTime: 40,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Japon',
   },
   {
@@ -683,7 +683,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Haşlama'),
     ingredients: ['tavuk', 'havuç', 'patates', 'soğan', 'tuz', 'karabiber'],
     cookingTime: 50,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -692,7 +692,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Sushi Bowl'),
     ingredients: ['somon', 'sushi pirinci', 'avokado', 'salatalık', 'nori', 'soya sosu'],
     cookingTime: 25,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Japon',
   },
   {
@@ -701,7 +701,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuklu Mantarlı Sote'),
     ingredients: ['tavuk', 'mantar', 'soğan', 'krema', 'zeytinyağı', 'baharatlar'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -710,7 +710,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek Chimichurri'),
     ingredients: ['biftek', 'maydanoz', 'sarımsak', 'sirke', 'zeytinyağı', 'acı biber'],
     cookingTime: 25,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Arjantin',
   },
   {
@@ -719,7 +719,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Patlıcan Salatası'),
     ingredients: ['patlıcan', 'yoğurt', 'sarımsak', 'zeytinyağı', 'limon', 'maydanoz'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -728,7 +728,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Souvlaki'),
     ingredients: ['tavuk', 'limon', 'zeytinyağı', 'oregano', 'sarımsak', 'pita'],
     cookingTime: 30,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Yunan',
   },
   {
@@ -737,7 +737,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Kıymalı Pide'),
     ingredients: ['hamur', 'kıyma', 'domates', 'biber', 'soğan', 'baharatlar'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -746,7 +746,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Tacos'),
     ingredients: ['somon', 'tortilla', 'lahana salatası', 'avokado', 'limon', 'krema'],
     cookingTime: 20,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Meksika',
   },
   {
@@ -755,7 +755,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Köri'),
     ingredients: ['tavuk', 'köri', 'krema', 'soğan', 'zeytinyağı', 'baharatlar'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Hint',
   },
   {
@@ -764,7 +764,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Mantı'),
     ingredients: ['hamur', 'kıyma', 'yoğurt', 'sarımsak', 'tereyağı', 'nane'],
     cookingTime: 90,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Türk',
   },
   {
@@ -773,7 +773,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Satay'),
     ingredients: ['tavuk', 'fıstık ezmesi', 'soya sosu', 'limon', 'baharatlar'],
     cookingTime: 30,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Asya',
   },
   {
@@ -782,7 +782,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Biftek Salad Bowl'),
     ingredients: ['biftek', 'pirinç', 'sebze karışımı', 'avokado', 'limon', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -791,7 +791,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Sucuklu Yumurta'),
     ingredients: ['sucuk', 'yumurta', 'zeytinyağı', 'tuz', 'karabiber'],
     cookingTime: 10,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -800,7 +800,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Pasta'),
     ingredients: ['somon', 'penne', 'krema', 'dereotu', 'limon', 'zeytinyağı'],
     cookingTime: 25,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'İtalyan',
   },
   {
@@ -809,7 +809,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Wings'),
     ingredients: ['tavuk kanat', 'acı sos', 'bal', 'zeytinyağı', 'baharatlar'],
     cookingTime: 40,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Amerikan',
   },
   {
@@ -818,7 +818,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Hünkar Beğendi'),
     ingredients: ['patlıcan', 'kuşbaşı et', 'süt', 'un', 'kaşar peyniri', 'tereyağı'],
     cookingTime: 70,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Türk',
   },
   {
@@ -827,7 +827,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Cacciatore'),
     ingredients: ['tavuk', 'domates', 'mantar', 'biber', 'zeytinyağı', 'kekik'],
     cookingTime: 50,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İtalyan',
   },
   {
@@ -836,7 +836,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Kumpir'),
     ingredients: ['patates', 'tereyağı', 'kaşar', 'mısır', 'zeytin', 'turşu'],
     cookingTime: 60,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Türk',
   },
   {
@@ -845,7 +845,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Ceviche'),
     ingredients: ['somon', 'limon', 'soğan', 'biber', 'kişniş', 'zeytinyağı'],
     cookingTime: 20,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Peru',
   },
   {
@@ -854,7 +854,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Gyros'),
     ingredients: ['tavuk', 'yoğurt', 'sarımsak', 'pita', 'domates', 'soğan'],
     cookingTime: 35,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Yunan',
   },
   {
@@ -863,7 +863,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Etli Kuru Patlıcan'),
     ingredients: ['kuru patlıcan', 'kıyma', 'domates', 'soğan', 'salça', 'zeytinyağı'],
     cookingTime: 65,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -872,7 +872,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Marsala'),
     ingredients: ['tavuk', 'mantar', 'marsala şarabı', 'krema', 'zeytinyağı', 'un'],
     cookingTime: 35,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'İtalyan',
   },
   {
@@ -881,7 +881,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Lahmacun'),
     ingredients: ['hamur', 'kıyma', 'domates', 'biber', 'soğan', 'maydanoz'],
     cookingTime: 30,
-    difficulty: 'medium',
+    difficulty: 'orta',
     cuisine: 'Türk',
   },
   {
@@ -890,7 +890,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Somon Sashimi Bowl'),
     ingredients: ['somon', 'pirinç', 'edamame', 'avokado', 'soya sosu', 'wasabi'],
     cookingTime: 15,
-    difficulty: 'easy',
+    difficulty: 'kolay',
     cuisine: 'Japon',
   },
   {
@@ -899,7 +899,7 @@ export const recipes: Recipe[] = [
     slug: generateSlug('Tavuk Cordon Bleu'),
     ingredients: ['tavuk göğsü', 'jambon', 'kaşar', 'ekmek kırığı', 'yumurta', 'zeytinyağı'],
     cookingTime: 40,
-    difficulty: 'hard',
+    difficulty: 'zor',
     cuisine: 'Fransız',
   },
 ];

@@ -6,3 +6,11 @@ export function generateSlug(name: string): string {
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-');
 }
+
+export function toTitleCase(text: string): string {
+  return text
+    .toLowerCase()
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}

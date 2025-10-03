@@ -22,85 +22,107 @@ import { getProduct } from '@/lib/site-details';
  */
 
 // TODO: Fill these
-export const name = '';
+export const name = 'Flavor: Pişir. Keşfet. Tadını çıkar.';
 
 /**
  * The main image URL for the site or application.
  * @type {string}
  */
-export const image = '';
+export const image = 'site.png';
 
 /**
  * A brief description of the site or application.
  * @type {string}
  */
-export const description = '';
+export const description =
+  'Favori tariflerinizi kaydedin, düzenleyin ve kolayca erişin. Pratik tarif yönetimi uygulaması ile mutfakta her şey elinizin altında. Ücretsiz deneyin!';
 
 /**
  * The template string for dynamic page titles or metadata.
  * @type {string}
  */
-const template = '';
+const template = 'Flavor';
 
 /**
  * The base URL of the site.
  * @type {string}
  */
-const siteUrl = 'http://w.co';
+const siteUrl = 'http://www.flavor.egeuysal.com';
 
 /**
  * The name of the site's author.
  * @type {string}
  */
-const authorName = '';
+const authorName = 'Ege Uysal';
 
 /**
  * An array of keywords relevant to the site for SEO purposes.
  * @type {string[]}
  */
-const keywords: string[] = [];
+const keywords: string[] = [
+  'tarif uygulaması',
+  'yemek tarifleri',
+  'tarif defteri',
+  'dijital tarif defteri',
+  'tarif yönetimi',
+  'mutfak uygulaması',
+  'yemek tarifi kaydetme',
+  'tarif koleksiyonu',
+  'online tarif defteri',
+  'tarif organizasyonu',
+  'malzeme listesi',
+  'pişirme talimatları',
+  'mutfak organizasyonu',
+  'tarif arama',
+  'yemek tarifi uygulaması',
+  'türkçe tarif uygulaması',
+  'ücretsiz tarif uygulaması',
+  'kolay tarif yönetimi',
+  'tarif kategorileri',
+  'favori tarifler',
+];
 
 /**
  * A description of the main image for accessibility and SEO.
  * @type {string}
  */
-const imageDescription = '';
+const imageDescription = 'Flavor uygulamasının logosu ve ekran görüntüsü.';
 
 /**
  * The Twitter handle of the author (e.g., '@username').
  * @type {string}
  */
-const authorTwitter = '';
+const authorTwitter = 'egecreates';
 
 /**
  * The LinkedIn profile URL of the author.
  * @type {string}
  */
-const authorLinkedin = '';
+const authorLinkedin = 'egeuysall';
 
 /**
  * The path or URL to the ICO favicon.
  * @type {string}
  */
-const icoIcon = '';
+const icoIcon = 'icon.ico';
 
 /**
  * The path or URL to the PNG favicon.
  * @type {string}
  */
-const pngIcon = '';
+const pngIcon = 'icon.png';
 
 /**
  * The path or URL to the Apple touch icon.
  * @type {string}
  */
-const appleTouchIcon = '';
+const appleTouchIcon = 'apple-touch-icon.png';
 
 /**
  * The path or URL to the web app manifest file.
  * @type {string}
  */
-const manifestFile = '';
+const manifestFile = 'manifest.json';
 
 export async function generateMetadata(): Promise<Metadata> {
   // Fetch data needed for metadata

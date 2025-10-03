@@ -21,12 +21,12 @@ export const Footer: React.FC = () => {
 
   const companyInfo = {
     name: 'Flavor',
-    slogan: 'Cook. Discover. Enjoy.',
+    slogan: 'Pişir. Keşfet. Tadını çıkar.',
   };
 
   const resourceLinks: ResourceLink[] = [
     {
-      title: 'Links',
+      title: 'Linkler',
       href: 'https://www.link.egeuysal.com',
     },
     {
@@ -46,22 +46,22 @@ export const Footer: React.FC = () => {
   // TODO: Fill these
   const socialLinks: SocialLink[] = [
     {
-      name: 'Website',
-      href: '',
+      name: 'Websitem',
+      href: 'https://www.egeuysal.com/',
       icon: Globe,
       size: 28,
       ariaLabel: 'Website',
     },
     {
       name: 'GitHub',
-      href: '',
+      href: 'https://github.com/egeuysal/flavor',
       icon: Github,
       size: 28,
       ariaLabel: 'GitHub',
     },
     {
       name: 'Email',
-      href: '',
+      href: 'mailto:hi@egeuysal.com',
       icon: Mail,
       size: 28,
       ariaLabel: 'Email',
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
 
           {/* Resources */}
           <div>
-            <h6>Resources</h6>
+            <h6>Kaynaklar</h6>
             <nav className="mt-2xs">
               <ul className="flex flex-col">
                 {resourceLinks.map((link, index) => (
@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
 
           {/* Social Links */}
           <div>
-            <h6 className="mb-md">Connect</h6>
+            <h6 className="mb-md">Bize Ulaşın</h6>
             <address className="not-italic">
               <div className="flex items-center gap-xs">
                 {socialLinks.map((link, index) => (

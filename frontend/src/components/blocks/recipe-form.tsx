@@ -76,8 +76,10 @@ export const RecipeForm: React.FC<RecipeFormProps> = ({ onSubmit }) => {
           <Input
             id="ingredients"
             type="text"
+            required
             placeholder="tavuk, domates, pilav..."
             value={ingredients}
+            autoFocus
             onChange={(e) => setIngredients(e.target.value)}
           />
         </div>
