@@ -19,43 +19,19 @@ interface SocialLink {
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
-  /**
-   * Information about the company to be displayed in the footer.
-   * @property {string} name - The name of the company.
-   * @property {string} slogan - The company's slogan or tagline.
-   */
-
-  // TODO: Fill these
   const companyInfo = {
-    name: '',
-    slogan: '',
+    name: 'Flavor',
+    slogan: 'Cook. Discover. Enjoy.',
   };
 
-  /**
-   * List of resource links to be shown in the footer.
-   * Each link should have a title and a URL (href).
-   * @type {ResourceLink[]}
-   * @example
-   * [{ title: 'Docs', href: '/docs' }]
-   */
-
-  // TODO: Fill these
   const resourceLinks: ResourceLink[] = [
     {
-      title: '',
-      href: '',
+      title: 'Links',
+      href: 'https://www.link.egeuysal.com',
     },
     {
-      title: '',
-      href: '',
-    },
-    {
-      title: '',
-      href: '',
-    },
-    {
-      title: '',
-      href: '',
+      title: 'Blog',
+      href: 'https://www.blog.egeuysal.com',
     },
   ];
 

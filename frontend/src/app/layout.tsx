@@ -11,7 +11,6 @@ import { inter, dmSans, jetbrainsMono } from '@/lib/fonts';
 
 // Internal Components
 import { Footer } from '@/components/blocks/footer';
-import { Header } from '@/components/blocks/header';
 import { LayoutWrapper } from '@/components/seo/layout-wrapper';
 
 // SEO details
@@ -246,9 +245,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className="w-full h-full flex-center">
         <LayoutWrapper jsonLdData={jsonLd}>
           <main className="w-[90vw] md:w-[92.5vw] lg:w-[95vw]">
-            <div className="mb-24">
-              <Header />
-            </div>
+            <div className="mb-12" />
             <Analytics />
             {children}
             <SpeedInsights />
