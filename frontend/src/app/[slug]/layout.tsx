@@ -8,9 +8,9 @@ export const dynamic = 'auto';
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.flavor.egeuysal.com';
   const canonical = `${siteUrl.replace(/\/$/, '')}/${slug}`;
 
