@@ -31,26 +31,26 @@ export default async function RecipePage({ params }: PageProps) {
       </Link>
 
       <section className="flex flex-col gap-12">
-        <div className="flex flex-col gap-2xs">
+        <div className="flex flex-col gap-sm">
           <h2>{recipe.name}</h2>
 
-          <div className="flex flex-col md:flex-row gap-md md:gap-2xl lg:gap-4xl">
+          <div className="flex flex-col md:flex-row gap-2xs md:gap-2xl lg:gap-4xl">
             <div className="flex items-center gap-sm text-neutral-700 dark:text-neutral-300">
-              <Utensils size={20} />
-              <span className="font-semibold">Mutfak:</span>
-              <span>{toTitleCase(recipe.cuisine)}</span>
+              <Utensils size={18} />
+              <span className="font-semibold text-small">Mutfak:</span>
+              <span className="text-small">{toTitleCase(recipe.cuisine)}</span>
             </div>
 
             <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
               <Clock size={20} />
-              <span className="font-semibold">Süre:</span>
-              <span>{recipe.cookingTime} dakika</span>
+              <span className="font-semibold text-small">Süre:</span>
+              <span className="text-small">{recipe.cookingTime} dakika</span>
             </div>
 
             <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
               <ChefHat size={20} />
-              <span className="font-semibold">Zorluk:</span>
-              <span>{toTitleCase(recipe.difficulty)}</span>
+              <span className="font-semibold text-small">Zorluk:</span>
+              <span className="text-small">{toTitleCase(recipe.difficulty)}</span>
             </div>
           </div>
         </div>
