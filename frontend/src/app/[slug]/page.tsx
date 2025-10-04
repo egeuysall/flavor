@@ -34,7 +34,7 @@ export default async function RecipePage({ params }: PageProps) {
         <div className="flex flex-col gap-2xs">
           <h2>{recipe.name}</h2>
 
-          <div className="flex gap-4xl">
+          <div className="flex flex-col md:flex-row gap-md md:gap-2xl lg:gap-4xl">
             <div className="flex items-center gap-sm text-neutral-700 dark:text-neutral-300">
               <Utensils size={20} />
               <span className="font-semibold">Mutfak:</span>
@@ -43,13 +43,13 @@ export default async function RecipePage({ params }: PageProps) {
 
             <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
               <Clock size={20} />
-              <span className="font-medium">Süre:</span>
+              <span className="font-semibold">Süre:</span>
               <span>{recipe.cookingTime} dakika</span>
             </div>
 
             <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
               <ChefHat size={20} />
-              <span className="font-medium">Zorluk:</span>
+              <span className="font-semibold">Zorluk:</span>
               <span>{toTitleCase(recipe.difficulty)}</span>
             </div>
           </div>
