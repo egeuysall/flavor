@@ -31,7 +31,7 @@ export default async function RecipePage({ params }: PageProps) {
       </Link>
 
       <section className="flex flex-col gap-12">
-        <div className="flex flex-col gap-sm">
+        <div className="flex flex-col gap-2xs">
           <h2>{recipe.name}</h2>
 
           <div className="flex flex-col md:flex-row gap-2xs md:gap-2xl lg:gap-4xl">
